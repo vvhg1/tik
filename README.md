@@ -1,36 +1,38 @@
-# tik - a Project Management Tool with Git Integration
+# tik - A Project Management Tool with Git Integration
 
-## THIS IS WORK IN PROGRESS AND NOT YET FUNCTIONAL
+![Tik Logo](link-to-your-logo.png)
 
-This project is a simple open-source project management tool that leverages Git for synchronization and task tracking. It allows users to manage tasks within projects using Markdown files, with a focus on simplicity and ease of use.
+**Note**: This project is currently a work in progress and is not yet fully functional. In fact it's in a very early stage of development. Feel free to contribute!
+
+tik is a simple yet powerful open-source project management tool designed to streamline project and task management while seamlessly integrating with Git for version control. With tik, you can efficiently organize tasks within projects using Markdown files, prioritizing simplicity and ease of use.
 
 ## Features
 
-- **Project Creation**: Users can create projects, each represented as a directory with a Git repository and a `project.md` file for project-specific information.
+- **Project Creation**: Easily create and manage projects, each represented as a dedicated directory equipped with a Git repository and a `project.md` file for detailed project-specific information.
 
-- **Task Management**: Tasks are represented as Markdown files within project directories. The tool follows a predefined task template for consistency.
+- **Effortless Task Management**: Tasks are represented as Markdown files within project directories. tik follows a predefined task template for consistency, making it simple to create and organize tasks.
 
-- **Interactive Project Selection**: Users can choose a project from a list when adding tasks to ensure tasks are associated with the correct project.
+- **Interactive Project Selection**: When adding tasks, tik allows users to interactively select the project, ensuring that tasks are correctly associated with the appropriate project.
 
-- **Task Numbering**: Tasks are automatically numbered within each project for easy reference and organization.
+- **Automatic Task Numbering**: Tasks are automatically numbered within each project, simplifying reference and organization as your projects grow.
 
-- **Git Integration**(WIP): The tool abstracts Git operations in the background, making it easy for users to work with version control without needing Git expertise.
+- **Git Integration** (Work in Progress): tik abstracts Git operations into the background, enabling users to work with version control without requiring in-depth Git expertise.
 
 ## Usage
 
-To use the project management tool:
+To utilize the project management capabilities of tik:
 
-1. Clone this repository.
+1. **Clone the Repository**: Begin by cloning this repository to your local machine.
 
-2. Install the necessary dependencies using `conda env create -f environment.yml`.
+2. **Install Dependencies**: Install the necessary dependencies using the provided `environment.yml` file with `conda env create -f environment.yml`.
 
-3. Run the `create_project.py` script to create a project. The script guides users through project creation, and projects are stored as directories with a `project.md` file for project-specific information.
+3. **Create a Project**: Run the `create_project.py` script to create a new project. The script will guide you through the project creation process, storing project-related information in a directory equipped with a `project.md` file.
 
-4. Run the `add_task.py` script to create tasks within projects. The script guides users through task creation, and tasks are stored as Markdown files in project directories.
+4. **Add Tasks**: Utilize the `add_task.py` script to create tasks within projects. The script will walk you through the task creation process, with tasks stored as Markdown files within project directories.
 
 ## Task Template
 
-The template for tasks in in `task_template.md`.
+To maintain consistency, tasks within tik adhere to the template outlined in `task_template.md`.
 
 ## Dependencies
 
@@ -40,14 +42,14 @@ The template for tasks in in `task_template.md`.
 
 ## Contributing
 
-Contributions to the Project Management Tool are welcome! Feel free to open issues or pull requests on the [GitHub repository](https://github.com/vvhg1/tik.git).
+Contributions to the tik Project Management Tool are highly encouraged and welcome! If you'd like to get involved, feel free to open issues or submit pull requests on the [GitHub repository](https://github.com/vvhg1/tik.git).
 
 ## License
 
-This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details.
+tik is licensed under the GNU General Public License (GPL). For full licensing details, refer to the [LICENSE.md](LICENSE.md) file.
 
 ## Acknowledgments
 
-Inspired by the need for a simple project management tool that integrates with Git.
+tik was inspired by the need for a straightforward project management tool that seamlessly integrates with Git.
 
-Happy project management!
+Happy project management with tik!

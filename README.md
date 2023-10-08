@@ -2,9 +2,9 @@
 
 <!-- ![Tik Logo](logo.png) -->
 
-**Note**: This project is currently a work in progress and is not yet fully functional. In fact it's in a very early stage of development. Feel free to contribute!
+**Note: This project is currently a work in progress and is not yet fully functional. In fact it's in a very early stage of development. Feel free to contribute!**
 
-tik is a simple yet powerful open-source project management tool designed to streamline project and task management while seamlessly integrating with Git for version control. With tik, you can efficiently organize tasks within projects using Markdown files, prioritizing simplicity and ease of use.
+tik is (going to be) a simple yet powerful open-source project management tool designed to streamline project and task management while seamlessly integrating with Git for version control. With tik, you can efficiently organize tasks within projects using Markdown files, prioritizing simplicity and ease of use.
 
 ## Features
 

@@ -1,6 +1,6 @@
 # tik - A Project Management Tool with Git Integration
 
-![Tik Logo](link-to-your-logo.png)
+<!-- ![Tik Logo](logo.png) -->
 
 **Note**: This project is currently a work in progress and is not yet fully functional. In fact it's in a very early stage of development. Feel free to contribute!
 

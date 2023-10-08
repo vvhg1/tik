@@ -1,0 +1,9 @@
+{
+    "logging": {
+        "level": "DEBUG",
+        "format": "%(asctime)s - Level:%(levelname)s - Message:%(message)s - File:%(filename)s - Line:%(lineno)d",
+        "file": "init_project.log",
+        "file_mode": "a"
+    },
+    "base_dir": "~/tik"
+}

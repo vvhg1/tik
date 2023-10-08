@@ -1,0 +1,4 @@
+{
+  "quickLogUtil.pythonLogString": "logging.info(f\"{var}: {{var}}\")"
+}
+
